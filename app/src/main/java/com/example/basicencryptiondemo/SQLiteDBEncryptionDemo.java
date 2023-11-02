@@ -33,7 +33,7 @@ public class SQLiteDBEncryptionDemo extends SQLiteOpenHelper {
             }
         }
     }
-
+//Testing app
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         db.execSQL("DROP TABLE IF EXISTS " + CONTACTS_TABLE_NAME);
